@@ -12,7 +12,7 @@ repositories {
     maven { setUrl("https://dl.bintray.com/kotlin/kotlinx.html/") }
 }
 
-kotlin {
+kotlin 
     ios()
 
     cocoapods {
@@ -35,7 +35,7 @@ kotlin {
 
 //      Example of usage remote Pod from Github repository by branch
         pod("JSONModel") {
-            source = git("https://github.com/jsonmodel/jsonmodel.git") {
+            source = git("https://github.com/jsonmodel/jsonmodel.git) {
                 branch = "key-mapper-class"
             }
         }
